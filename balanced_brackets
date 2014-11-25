@@ -1,0 +1,18 @@
+var balanced = function(string) {
+  var str = string.split('');
+  var result = '';
+  for (var i in str) {
+    if (str[i] == '(' || ')') {
+      result.push(str[i]);
+    }
+  }
+  if (result[0] == ')') {
+    console.log('NO');
+    return false;
+  }
+  else if (result[-1] == '(') {
+    
+  }
+  do
+}
+
